@@ -7,6 +7,14 @@ return {
 
   ["ggandor/lightspeed.nvim"] = {},
 
+  ['rose-pine/neovim'] = {
+    as = 'rose-pine',
+    config = function()
+        vim.cmd('colorscheme rose-pine')
+    end
+  },
+
+
   ["folke/which-key.nvim"] = { disable = false},
 
   -- Override plugin definition options
